@@ -26,5 +26,6 @@ class Proofread:
                 if i == set() or i == 'Error':
                     return lines.index(corrections.values[i])
         else:
-            return ('Not Pythonm file')
+            return ('Not Python file')
             
+
